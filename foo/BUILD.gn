@@ -1,0 +1,10 @@
+source_set("foo") {
+  sources = [
+    "foo.c",
+    "foo.h",
+  ]
+
+  public = [
+    "foo.h",
+  ]
+}

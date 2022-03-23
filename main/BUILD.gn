@@ -1,0 +1,9 @@
+executable("main") {
+  sources = [
+    "main.c",
+  ]
+
+  deps = [
+    "//foo",
+  ]
+}
